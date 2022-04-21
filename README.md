@@ -3,7 +3,7 @@
 ---
 
 **Description:**  
-A library to control HD44780-based LCD using AVR microcontrollers.  
+A library to control HD44780-based LCD using MAX78000 microcontroller.  
 + The library operates only in 4-bit mode.  
 + **The display pins can be configured to any pin in any port in any sequence.**  
 + Instead of using delays, it checks for the busy flag status of the display.
@@ -12,7 +12,6 @@ A library to control HD44780-based LCD using AVR microcontrollers.
   + Printing text.
   + Printing numbers (using a substraction algorithm that is overall faster than divisions).  
   _Read the bottom of "HD44780.h" to see all functions available._  
-+ My custom I/O macros are required and are included.  
 + The display sizes that are supported are:  
 
 | | | | |
@@ -22,19 +21,3 @@ A library to control HD44780-based LCD using AVR microcontrollers.
 | |16x4|20x4| |    
 
 ---  
-
-**Memory usage:**  
-+ Program: 0 bytes  
-+ Data: 0 bytes  
-
-**Compiler:**  
-AVR-GCC  
-  
-**Optimization Level:**  
-Optimize (-O1)  
-  
---- 
-
-![picture alt](https://raw.githubusercontent.com/efthymios-ks/AVR-HD44780-Library/master/Demonstration.png)  
-
----
