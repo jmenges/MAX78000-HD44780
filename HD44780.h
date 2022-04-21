@@ -3,11 +3,11 @@
 /*
 ||
 ||  Filename:	 		HD44780.h
-||  Title: 			    HD44780 Driver for MAX78000
-||  Author:				Jonas Menges (dev.menges.jonas@gmail.com)
-||	Description: 
-||	This library can drive HD44780 based LCD. 
-||	The LCD is driven exclusively in 4-bit mode. 
+||  Title:			HD44780 Driver for MAX78000
+||  Author:			Jonas Menges (dev.menges.jonas@gmail.com)
+||  Description: 
+||    This library can drive HD44780 based LCD. 
+||    The LCD is driven exclusively in 4-bit mode. 
 ||
 ||
 ||  Original Author for AVR-Version:
